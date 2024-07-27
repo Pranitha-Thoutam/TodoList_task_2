@@ -1,0 +1,168 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dpxxkdmi5/image/upload/v1721389821/WhatsApp_Image_2024-07-19_at_5.19.30_PM_ibldjm.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.head {
+    position: sticky;
+}
+.logo-size {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-right: 15px;;
+}
+
+.heading {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px; 
+    list-style: none;  
+}
+
+.user-logo {
+    height: 40px;
+    width: 40px;
+    background-color: #be9568;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-radius:20px;
+    margin-right: 15px;
+}
+
+
+.user-logo a {
+    text-decoration: none;
+}
+
+.user-logo:hover {
+    background-color: #ab6d2b;
+}
+
+.adjust {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header {
+
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(228, 226, 202);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+     
+}
+
+.nav-items {
+    gap: 45px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+}
+
+li a:hover{
+    background-color: #be9568;
+    
+}
+
+.lists {
+    background-color: transparent;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    width: 350px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+ 
+
+.main {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 400px;
+}
+
+.check {
+
+    height: 20px;
+    width: 20px;
+    background-color: #e0c2a3;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.todolist {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.todolist:has(.check:checked) {
+    width: 420px;
+    color: #555555; 
+    background-color: #b2916d;
+    text-decoration: line-through;
+    order: 1;
+    border-radius: 10px;
+}
+
+.btn {
+    color: black;
+    background-color: #b2916d;
+    padding: 7px; 
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
